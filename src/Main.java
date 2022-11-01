@@ -5,6 +5,8 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Calculator calc = new Calculator();
 
-        System.out.println(calc.calcSolve("-7.7--8.88"));
+        System.out.print("Enter an expression with *, /, +, -, %,or ^: ");
+        String question = scan.nextLine();
+        System.out.println(calc.calcSolve(question));
     }
 }
