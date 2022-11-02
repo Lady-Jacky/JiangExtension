@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 public class Calculator {
     public Calculator() {
     }
-    String pattern = "####,####.##";
+    String pattern = "########.##";
     DecimalFormat df = new DecimalFormat(pattern);
 
     public String calcSolve(String expression) {
